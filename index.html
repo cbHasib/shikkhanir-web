@@ -26,47 +26,48 @@
 
 
   <!-- Header Section Start  -->
-  <header id="navigate" class="sticky-top shadow">
+  <header id="navigate" class="sticky-top shadow bg-light">
     <div class="container">
-      <nav class="navbar navbar-expand-lg b-light py-3">
+      <nav class="navbar navbar-expand-lg py-3">
 
         <a class="navbar-brand fw-semibold fs-4" href="#">ShikkhaNir</a>
 
-  
-          <div class="order-1 order-md-1 order-lg-2 d-flex gap-2">
-            <div class="text-end d-none d-sm-block">
-              <button type="button" class="btn btn-outline-primary me-2">Register</button>
-            </div>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="order-1 order-md-1 order-lg-2 d-flex gap-3">
+          <div class="text-end d-none d-sm-block">
+            <button type="button" class="btn btn-outline-primary">Register</button>
           </div>
 
-          <div class="order-2 order-md-2 order-lg-1 collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav gap-3">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#course">Course</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#deals">Deals</a>
-              </li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#success">Success</a>
-              </li>
+        <div class="order-2 order-md-2 order-lg-1 collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent">
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#course">Course</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#deals">Deals</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#success">Success</a>
+            </li>
 
-            </ul>
-          </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+          </ul>
+        </div>
 
 
 
@@ -78,9 +79,83 @@
 
 
   <!-- Main Body Start  -->
-  <main data-bs-spy="scroll" data-bs-target="#navigate">
+  <main class="container" data-bs-spy="scroll" data-bs-target="#navigate">
 
 
+    <!-- Hero Slider Section Start  -->
+    <div id="carouselExampleCaptions" class="carousel slide container mt-2" data-bs-ride="false">
+
+      <div class="carousel-inner rounded">
+
+        <div class="carousel-item active position-relative">
+          <img src="assets/images/cover/cover-1.png" class="d-block img-fluid" alt="Slider With Image">
+          <div class="slider-overlay">
+            <div class="position-absolute top-50 start-50 translate-middle text-center p-0 d-none d-md-block">
+              <h1 class="fw-semibold text-white">Get Started Digital Learning</h1>
+              <p class="text-grey my-3">It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.</p>
+              <a href="" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="assets/images/cover/cover-2.png" class="d-block img-fluid" alt="Slider With Image">
+          <div class="slider-overlay">
+            <div class="position-absolute top-50 start-50 translate-middle text-center p-0 d-none d-md-block">
+              <h1 class="fw-semibold text-white">Get Started Digital Learning</h1>
+              <p class="text-grey my-3">It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.</p>
+              <a href="" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="assets/images/cover/cover-3.png" class="d-block img-fluid" alt="Slider With Image">
+          <div class="slider-overlay">
+            <div class="position-absolute top-50 start-50 translate-middle text-center p-0 d-none d-md-block">
+              <h1 class="fw-semibold text-white">Get Started Digital Learning</h1>
+              <p class="text-grey my-3">It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.</p>
+              <a href="" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Hero Slider Section Start  -->
+
+
+
+
+    <!-- Course Section Start  -->
+    <div class="py-5">
+      <div class="d-flex justify-content-center align-items-center flex-column text-center px-2 text-md-white">
+        <h2>Discover Our Popular Courses</h2>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+      </div>
+
+
+
+    </div>
+    <!-- Course Section End  -->
 
 
 
@@ -95,9 +170,9 @@
 
 
 
-<!-- Footer Start -->
+  <!-- Footer Start -->
 
-<!-- Footer End -->
+  <!-- Footer End -->
 
 
 

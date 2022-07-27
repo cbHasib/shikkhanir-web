@@ -5,3 +5,17 @@ body{
 .navbar-brand{
     color: #4A4A4A;
 }
+
+.text-grey{
+    color: #F4F4F4;
+
+}
+
+.slider-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 29, 29, 0.7);
+}
