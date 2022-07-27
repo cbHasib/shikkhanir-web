@@ -35,7 +35,8 @@
 
         <div class="order-1 order-md-1 order-lg-2 d-flex gap-3">
           <div class="text-end d-none d-sm-block">
-            <button type="button" class="btn btn-outline-primary">Register</button>
+            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+              data-bs-target="#register">Register</button>
           </div>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -75,6 +76,53 @@
       </nav>
     </div>
   </header>
+
+  <!-- Popup Section  -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="register" aria-labelledby="Register Popup" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content rounded-4 shadow">
+        <div class="modal-header p-5 pb-4 border-bottom-0">
+          <h2 class="fw-bold mb-0">Sign up for free</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body p-5 pt-0">
+          <form class="">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+            <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+            <hr class="my-4">
+            <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+            <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
+              <svg class="bi me-1" width="16" height="16">
+                <use xlink:href="#twitter" />
+              </svg>
+              Sign up with Twitter
+            </button>
+            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+              <svg class="bi me-1" width="16" height="16">
+                <use xlink:href="#facebook" />
+              </svg>
+              Sign up with Facebook
+            </button>
+            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+              <svg class="bi me-1" width="16" height="16">
+                <use xlink:href="#github" />
+              </svg>
+              Sign up with GitHub
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Header Section End  -->
 
 
@@ -147,11 +195,46 @@
 
     <!-- Course Section Start  -->
     <div class="py-5">
-      <div class="d-flex justify-content-center align-items-center flex-column text-center px-2 text-md-white">
-        <h2>Discover Our Popular Courses</h2>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+      <div class="d-flex justify-content-center align-items-center flex-column text-center px-3 px-md-5">
+        <h2 class="fw-semibold">Discover Our Popular Courses</h2>
+        <p class="text-dark-grey">It is a long established fact that a reader will be distracted by the readable content
+          of a page when looking at its layout.</p>
       </div>
 
+
+      <div class="container row g-2">
+
+        <!-- Single Course -->
+        <div class="course d-flex align-items-center gap-3 border rounded col-12 col-lg-6 flex-column">
+          <div class="course-img">
+            <img class="" src="assets/images/course/course-1.png" alt="">
+          </div>
+          <div class="course-detail">
+            <h5 class="fw-semibold">Fundamental Of UI/UX Design</h5>
+            <p class="text-dark-grey">Some quick example text to build on the card title and make up the bulk of the
+              card.</p>
+            <p class="text-primary fw-semibold">Price: $20</p>
+          </div>
+        </div>
+
+
+        <div class="course d-flex align-items-center gap-3 border rounded col-12 col-lg-6">
+          <div class="course-img">
+            <img src="assets/images/course/course-1.png" alt="">
+          </div>
+          <div class="course-detail">
+            <h5 class="fw-semibold">Fundamental Of UI/UX Design</h5>
+            <p class="text-dark-grey">Some quick example text to build on the card title and make up the bulk of the
+              card.</p>
+            <p class="text-primary fw-semibold">Price: $20</p>
+          </div>
+        </div>
+
+
+
+
+      </div>
 
 
     </div>

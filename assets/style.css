@@ -8,7 +8,9 @@ body{
 
 .text-grey{
     color: #F4F4F4;
-
+}
+.text-dark-grey{
+    color: #777777;
 }
 
 .slider-overlay{
