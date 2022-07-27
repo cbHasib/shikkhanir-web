@@ -13,6 +13,11 @@ body{
     color: #777777;
 }
 
+.h-100{
+    height: 100%;
+    width: auto;
+}
+
 .slider-overlay{
     position: absolute;
     top: 0;
