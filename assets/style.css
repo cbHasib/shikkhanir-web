@@ -26,3 +26,7 @@ body{
     right: 0;
     background: rgba(29, 29, 29, 0.7);
 }
+
+.bg-about{
+    background: #F4FAFD;
+}
