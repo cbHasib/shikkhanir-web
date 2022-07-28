@@ -1,28 +1,22 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-
 .navbar-brand {
     color: #4A4A4A;
 }
-
 .navbar-nav .nav-link.active,
 .navbar-nav .show>.nav-link {
     color: #0d6efd;
 }
-
 .text-grey {
     color: #F4F4F4;
 }
-
 .bg-about {
     background: #F4FAFD;
 }
-
 .text-dark-grey {
     color: #777777;
 }
-
 .slider-overlay {
     position: absolute;
     top: 0;
@@ -32,9 +26,7 @@ body {
     background: rgba(29, 29, 29, 0.7);
 }
 
-/* slider section */
 .carousel-item img {
-    filter: brightness(50%);
     object-fit: cover;
     min-height: 60vh;
 }
@@ -97,7 +89,6 @@ body {
     }
 
     .slide-text p {
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
     }
