@@ -52,8 +52,4 @@ body{
     transition: all ease-in 200ms;
 }
 
-@media only screen and (min-width: 768px) {
-    .w-md-35{
-        width: 35%;
-    }
-}
+
